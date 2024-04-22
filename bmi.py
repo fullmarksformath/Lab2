@@ -13,5 +13,5 @@ def calculate_bmi(height, weight):
     elif BMI>25.0:
         print("ni zhe ge si hei ren kuai dian qu gym bro")
 
-calculate_bmi(weight=43, height=)
+calculate_bmi(weight=53, height=1.73)
 
