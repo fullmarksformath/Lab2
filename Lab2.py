@@ -25,26 +25,12 @@ def calc_min_max_temp(new_list):
     print("The maximum temperature is",minmax[1])
     return minmax
 
-def sort_temperature(list):
-    new_list=sorted(list)
-    print("The temperatures in ascending order are as such:")
-    for item in new_list:
-        print(item)
-
-    return new_list
-
-def calc_median_temperature(list):
-    median_temp=statistics.median(list)
-    print("The median temperature is",median_temp)
-
 def main():
     print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")
     display_main_menu()
     num_list = get_user_input()
     calc_average(num_list)
     calc_min_max_temp(num_list)
-    sort_temperature(num_list)
-    calc_median_temperature(num_list)
 
 if __name__ == "__main__":
     main()
